@@ -1,0 +1,138 @@
+//!
+.reasons-container {
+  display: flex;
+  flex-direction: column-reverse;
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+  }
+}
+//!
+.reasons__wrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-shrink: 0;
+
+  @media screen and (min-width: 768px) {
+    justify-content: flex-end;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 50%;
+    justify-content: center;
+  }
+}
+//!
+.reasons__list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  @media screen and (min-width: 768px) {
+    width: 450px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 370px;
+  }
+}
+//!
+.reasons__list-item {
+  width: 44%;
+  height: 133px;
+  border: 1px solid #000000;
+  padding: 20px 24px;
+  &:nth-child(odd) {
+    margin-right: 30px;
+  }
+  &:nth-child(even) {
+    margin-top: 30px;
+  }
+  @media screen and (min-width: 480px) {
+    width: 194px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 210px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 170px;
+  }
+}
+//!
+.reasons__list-digit {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 6px;
+
+  font-weight: 700;
+  font-size: 42px;
+  line-height: calc(57 / 42);
+
+  letter-spacing: 0.05em;
+  color: var(--third-text-color);
+  &::after {
+    content: '+';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(22 / 16);
+    text-align: center;
+
+    color: var(--accent-color);
+  }
+}
+//!
+.reasons__list-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  text-align: center;
+  color: var(--third-text-color);
+}
+
+.reasons-item-different {
+  padding: 20px;
+}
+//!
+.reasons__right {
+  margin-bottom: 44px;
+  @media screen and (min-width: 768px) {
+    width: 500px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+  }
+}
+//!
+.reasons__right-pre-title {
+  margin-bottom: 20px;
+
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #303030;
+}
+//!
+.reasons__right-title {
+  margin-bottom: 20px;
+
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+
+  color: #303030;
+}
+//!
+.reasons__right-after-title {
+  max-width: 500px;
+
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  letter-spacing: 0.02em;
+
+  color: #555555;
+}

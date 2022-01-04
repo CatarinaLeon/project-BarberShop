@@ -1,0 +1,23 @@
+.pre-title_light {
+  @extend %flex-align;
+  color: var(--first-text-color);
+  &:before {
+    content: '';
+    width: 63px;
+    height: 1px;
+    margin-right: 21px;
+    background-color: var(--first-text-color);
+  }
+}
+
+.pre-title_dark {
+  @extend %flex-align;
+  color: var(--third-text-color);
+  &:before {
+    content: '';
+    width: 63px;
+    height: 1px;
+    margin-right: 21px;
+    background-color: var(--third-text-color);
+  }
+}

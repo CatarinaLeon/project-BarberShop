@@ -1,0 +1,58 @@
+<div class="backdrop is-hidden" data-backdrop>
+  <div class="modal">
+    <button type="button" class="btn-close" data-close-btn>
+      <svg width="30" height="30">
+        <use xlink:href="./images/svg/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+    <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
+    <form action="#" class="modal__form">
+      <div class="modal__form-fied">
+        <label for="user-name" class="modal__form-text">Ваше имя</label>
+        <div class="modal__input-wrapper">
+          <input type="text" name="user-name" id="user-name" class="modal__form-input" />
+          <svg class="form-icon" width="18" height="18">
+            <use href="./images/svg/sprite.svg#icon-person-black"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="modal__form-fied">
+        <label for="user-email" class="modal__form-text">Ваша почта</label>
+        <div class="modal__input-wrapper">
+          <input type="text" name="user-email" id="user-email" class="modal__form-input" />
+          <svg class="form-icon" width="18" height="18">
+            <use href="./images/svg/sprite.svg#icon-phone2"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="modal__form-fied">
+        <label for="user-tel" class="modal__form-text">Ваш телефон</label>
+        <div class="modal__input-wrapper">
+          <input type="text" name="user-tel" id="user-tel" class="modal__form-input" />
+          <svg class="form-icon" width="18" height="18">
+            <use href="./images/svg/sprite.svg#icon-email"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="modal__form-fied">
+        <label for="user-comment" class="modal__form-text">Комментарий</label>
+        <textarea
+          name="user-comment"
+          id="user-comment"
+          class="form-comment"
+          placeholder="Введите комментарий..."
+        ></textarea>
+      </div>
+      <input type="checkbox" class="form__checkbox visually-hidden" name="policy" id="policy" />
+      <label for="policy" class="form__check-text">
+        <span class="form__check-item">
+          <svg class="check-icon" width="11" height="8">
+            <use href="./images/svg/sprite.svg#icon-check"></use>
+          </svg>
+        </span>
+        Соглашаюсь с рассылкой и принимаю <a href="" class="contract">Условия договора</a></label
+      >
+      <button type="submit" class="btn form-btn">Отправить</button>
+    </form>
+  </div>
+</div>
