@@ -1,5 +1,5 @@
 .contacts-online {
-  background-color: #191c26;
+  background-color: var(--background-online);
   background-image: url(../images/contacts/img-mob-1x.png);
   background-repeat: no-repeat;
   background-size: 100% 48%;
@@ -40,30 +40,30 @@
   }
 }
 
-//!
 .contacts__title {
   margin-bottom: 40px;
   text-align: center;
 
+  font-family: Raleway;
   font-weight: bold;
   font-size: 42px;
-  line-height: 49px;
+  line-height: calc(49 / 42);
   letter-spacing: 0.05em;
 
-  color: #ffffff;
+  color: var(--main-title-color);
 
   @media screen and (min-width: 768px) {
     text-align: left;
   }
 }
-//!
+
 .contacts__address {
   @media screen and (min-width: 768px) {
     width: 300px;
     display: inline-block;
   }
 }
-//!
+
 .contacts__list-item {
   margin-bottom: 20px;
   @media screen and (min-width: 768px) {
@@ -72,18 +72,18 @@
     }
   }
 }
-//!
+
 .contacts__list-link {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  font-family: Open Sans;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
-  letter-spacing: 0.02em;
+
   font-style: normal;
-  color: #9da4bd;
+  font-size: 18px;
+  line-height: calc(30 / 18);
+  letter-spacing: 0.02em;
+
+  color: var(--second-text-color);
 }
 
 .contacts__wrap {
@@ -95,17 +95,17 @@
     float: none;
   }
 }
-//!
+
 .contacts__wrap-time {
   margin-top: 44px;
   margin-bottom: 20px;
 
   font-weight: 600;
   font-size: 11px;
-  line-height: 15px;
+  line-height: calc(15 / 11);
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--main-title-color);
   @media screen and (min-width: 768px) {
     margin-top: 0;
   }
@@ -113,19 +113,20 @@
     margin-top: 70px;
   }
 }
-//!
+
 .contacts__wrap-time-day {
   font-size: 18px;
-  line-height: 30px;
+  line-height: calc(30 / 18);
   letter-spacing: 0.02em;
 
-  color: #9da4bd;
+  color: var(--second-text-color);
 }
 
 .contacts__icon {
   margin-right: 20px;
   justify-content: end;
 }
+
 .index {
   padding-left: 5px;
   @media screen and (min-width: 768px) {

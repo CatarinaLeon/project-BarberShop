@@ -2,3 +2,7 @@
   display: flex;
   align-items: center;
 }
+%transition {
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
+}

@@ -16,7 +16,7 @@
   width: 24px;
   height: 3px;
   display: block;
-  background-color: #ffffff;
+  background-color: var(--main-title-color);
   position: relative;
 }
 
@@ -28,7 +28,7 @@
   display: block;
   position: absolute;
 
-  background-color: #ffffff;
+  background-color: var(--main-title-color);
 }
 
 .open-btn span::before {
@@ -40,9 +40,7 @@
 }
 
 .mob-menu {
-  position: absolute;
   position: fixed;
-  background-color: #ffffff;
   top: 0;
   right: 0;
   width: 100vw;
@@ -53,6 +51,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: var(--main-title-color);
   @media screen and (min-width: 480px) {
     width: 337px;
   }
@@ -67,7 +66,7 @@
   width: 24px;
   height: 3px;
   display: block;
-  background-color: #000000;
+  background-color: var(--second-title-color);
   position: relative;
   transform: rotate(45deg);
 }
@@ -79,7 +78,7 @@
   display: block;
   position: absolute;
   transform: rotate(-90deg);
-  background-color: #000000;
+  background-color: var(--second-title-color);
 }
 
 .mob-menu__list {
@@ -96,7 +95,7 @@
     line-height: calc(25 / 18);
 
     letter-spacing: 0.1em;
-    color: #303030;
+    color: var(--third-text-color);
   }
 }
 
@@ -104,9 +103,9 @@
   font-weight: 600;
   font-size: 18px;
   line-height: calc(25 / 18);
-
   letter-spacing: 0.1em;
-  color: #303030;
+
+  color: var(--third-text-color);
 }
 
 .mob-menu__btn {
@@ -124,7 +123,7 @@
   display: block;
   width: 60px;
   height: 1px;
-  background-color: #303030;
+  background-color: var(--third-text-color);
   position: absolute;
   left: 0;
   top: 10px;
@@ -140,6 +139,6 @@
     line-height: calc(19 / 14);
     letter-spacing: 0.2em;
 
-    color: #303030;
+    color: var(--third-text-color);
   }
 }

@@ -17,22 +17,21 @@
   margin-left: 40px;
 }
 .footer__list-link {
-  font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
   font-size: 11px;
-  line-height: 15px;
+  line-height: calc(15 / 11);
   letter-spacing: 0.2em;
 
-  color: #303030;
+  color: var(--third-text-color);
 }
 .footer__copy {
   font-weight: 600;
   font-size: 11px;
-  line-height: 15px;
+  line-height: calc(15 / 11);
   letter-spacing: 0.2em;
 
-  color: #9da4bd;
+  color: var(--second-text-color);
 }
 .copy {
   margin-right: 6px;

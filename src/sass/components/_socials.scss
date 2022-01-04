@@ -13,24 +13,26 @@
 }
 
 .social-list__link {
-  height: 100%;
-  background-color: #ffffff;
-  border-radius: 50%;
-  justify-content: center;
-  transition: background-color 300ms ease;
   @extend %flex-align;
+  justify-content: center;
+  height: 100%;
 
+  border-radius: 50%;
+  background-color: var(--main-title-color);
+  transition: background-color 300ms ease;
   &:hover,
   &:focus {
-    background-color: #ffffff;
+    background-color: var(--main-title-color);
+    @extend %transition;
   }
 }
 
 .social-list__icon {
   transition: fill 300ms ease;
-  fill: #303030;
+  fill: var(--third-text-color);
   .social-list__link:hover &,
   .social-list__link:focus & {
     fill: var(--accent-color);
+    @extend %transition;
   }
 }

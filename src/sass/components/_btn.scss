@@ -7,14 +7,16 @@
   min-width: 160px;
   height: 40px;
   top: 36px;
-  border: 1px solid #ff6c00;
+  border: 1px solid var(--accent-color);
   border-radius: 25px;
   background-color: transparent;
   cursor: pointer;
+  transition-duration: 250ms;
   &:hover,
   &:focus {
     color: var(--header-text-color);
     background-color: var(--accent-color);
+    @extend %transition;
   }
 }
 
