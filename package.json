@@ -1,6 +1,6 @@
 {
   "name": "project-barbershop",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Запустить режим разработки. npm start",
   "scripts": {
     "start": "parcel src/*.html",
@@ -28,7 +28,7 @@
     "vm-browserify": "^1.1.2"
   },
   "dependencies": {
-    "posthtml-doctype": "^1.1.1",
-    "sass": "^1.53.0"
-  }
+    "posthtml-doctype": "^1.1.1"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
