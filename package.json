@@ -28,6 +28,7 @@
     "vm-browserify": "^1.1.2"
   },
   "dependencies": {
-    "posthtml-doctype": "^1.1.1"
+    "posthtml-doctype": "^1.1.1",
+    "sass": "^1.53.0"
   }
 }
