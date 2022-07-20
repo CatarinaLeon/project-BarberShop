@@ -1,0 +1,2 @@
+const e={openMenuBtn:document.querySelector("[data-menu-open-btn]"),closeMenuBtn:document.querySelector("[data-menu-close-btn]"),menuBackdrop:document.querySelector("[data-menu-backdrop]"),menuList:document.querySelector(".mob-menu__list")};function n(){e.menuBackdrop.classList.toggle("is-hidden")}e.openMenuBtn.addEventListener("click",n),e.closeMenuBtn.addEventListener("click",n),e.menuList.addEventListener("click",(function(){e.menuBackdrop.classList.add("is-hidden")}));
+//# sourceMappingURL=index.70b7b36b.js.map
