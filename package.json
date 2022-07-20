@@ -1,7 +1,7 @@
 {
   "name": "project-barbershop",
   "version": "1.0.0",
-  "description": "Запустить режим разработки. npm run dev",
+  "description": "Запустить режим разработки. npm start",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel src/*.html",
@@ -17,11 +17,12 @@
   "bugs": {
     "url": "https://github.com/CatarinaLeon/project-BarberShop/issues"
   },
-  "homepage": "https://github.com/CatarinaLeon/project-BarberShop#readme",
+  "homepage": "https://catarinaleon.github.io/project-BarberShop/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.2",
     "buffer": "^6.0.3",
     "parcel": "^2.6.2",
+    "parcel-reporter-clean-dist": "^1.0.4",
     "path-browserify": "^1.0.1",
     "posthtml-include": "^1.7.4",
     "process": "^0.11.10",
