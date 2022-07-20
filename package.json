@@ -1,28 +1,33 @@
 {
   "name": "project-barbershop",
-  "version": "1.1.0",
-  "description": "",
-  "main": "index.js",
-  "homepage": "https://CatarinaLeon.github.io/project-BarberShop",
+  "version": "1.0.0",
+  "description": "Запустить режим разработки. npm run dev",
+  "source": "src/index.html",
   "scripts": {
-    "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /project-BarberShop/"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CatarinaLeon/project-BarberShop.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CatarinaLeon/project-BarberShop/issues"
   },
+  "homepage": "https://github.com/CatarinaLeon/project-BarberShop#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5",
-    "parcel-plugin-handlebars-precompile": "^1.0.2",
-    "parcel-plugin-nuke-dist": "^1.0.1",
-    "posthtml-include": "^1.6.2",
-    "sass": "^1.32.8"
+    "@parcel/transformer-sass": "^2.6.2",
+    "buffer": "^6.0.3",
+    "parcel": "^2.6.2",
+    "path-browserify": "^1.0.1",
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10",
+    "vm-browserify": "^1.1.2"
+  },
+  "dependencies": {
+    "posthtml-doctype": "^1.1.1"
   }
 }
