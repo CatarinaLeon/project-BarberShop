@@ -4,7 +4,7 @@
   "description": "Запустить режим разработки. npm start",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url project-BarberShop/"
+    "build": "parcel build src/*.html --public-url /project-BarberShop/"
   },
   "repository": {
     "type": "git",
