@@ -2,7 +2,6 @@
   "name": "project-barbershop",
   "version": "1.0.0",
   "description": "Запустить режим разработки. npm start",
-  "source": "src/index.html",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url project-BarberShop/"
