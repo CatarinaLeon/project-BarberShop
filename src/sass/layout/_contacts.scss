@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   background-size: 100% 48%;
   background-position: bottom;
-  flex-grow: 1;
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     background-image: url(../images/contacts/img-mob-2x.png);
   }
@@ -19,13 +18,20 @@
   @media screen and (min-width: 1200px) {
     background-image: url(../images/contacts/img-desk-1x.png);
     background-position: right;
-    background-size: 46% 100%;
+    background-size: 48% 100%;
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../images/contacts/img-desk-2x.png);
     }
   }
 }
-
+.container__contacts-online{
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 130px;
+  }
+}
 .contacts {
   padding-top: 84px;
   @media screen and (min-width: 768px) {
@@ -33,10 +39,6 @@
   }
   @media screen and (min-width: 1200px) {
     padding-top: 0;
-    padding-left: 100px;
-    width: 515px;
-    margin: 0 auto;
-    float: right;
   }
 }
 

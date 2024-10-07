@@ -75,11 +75,11 @@
 .header-connect {
   display: none;
   @media screen and (min-width: 768px) {
-    width: 160px;
+    width: 130px;
     display: flex;
     flex-direction: column-reverse;
     margin-top: 40px;
-    margin-right: 3px;
+    margin-right: 5px;
   }
   @media screen and (min-width: 1200px) {
     width: 315px;
@@ -102,10 +102,16 @@
     color: var(--accent-color);
     @extend %transition;
   }
+    @media screen and (min-width: 768px) {
+      font-size: 10px;
+      line-height: calc(14 / 10);
+    }
   @media screen and (min-width: 1200px) {
     display: flex;
     justify-content: center;
     margin-right: 30px;
+    font-size: 12px;
+    line-height: calc(16 / 12);
   }
 }
 
@@ -115,7 +121,15 @@
   margin-bottom: 20px;
 
   color: var(--header-text-color);
+  @media screen and (min-width: 768px) {
+    min-width: 130px;
+    font-size: 10px;
+    line-height: calc(14 / 10);
+  }
   @media screen and (min-width: 1200px) {
     margin-bottom: 0;
+    min-width: 160px;
+    font-size: 12px;
+    line-height: calc(16 / 12);
   }
 }
