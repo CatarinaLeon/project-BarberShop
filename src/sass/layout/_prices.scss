@@ -1,14 +1,9 @@
-// .prices-overlay {
-//   background-color: #282a2f;
-// }
 .prices {
   background-color: var(--background-online);
   background-image: url(../images/prices/prices-bg-mob.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 100% 50%;
   background-size: cover;
-  max-width: 1680px;
-  margin: 0 auto;
 
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     background-image: url(../images/prices/prices-bg-mob-2x.png);
